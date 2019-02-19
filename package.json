@@ -1,0 +1,20 @@
+{
+  "name": "nodejs",
+  "version": "0.0.1",
+  "description": "Ceci est un projet de demo NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chausette"
+  ],
+  "author": "Moi",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.3.15",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,10 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        title
+    body
+        h1 Look at my beers : 
+        each beer in beers
+            - var lnk = '/edit?id=' + beer.id
+            a(href=lnk) #{beer.name}

@@ -1,0 +1,25 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        title
+    body
+        span= beer.name
+        form(method='POST')
+            .form-group
+                label Name
+                input(name='name', type='text', value=beer.name)
+            .form-group
+                label Brewery
+                input(name='brewery', type='text', value=beer.brewery)
+            .form-group
+                label Type
+                input(name='type', type='text', value=beer.type)
+            .form-group
+                label Rating
+                input(name='rating', type='number', step='0.01', value=beer.rating)
+            .form-group
+                input(name='tested', type='checkbox', checked=beer.tested)
+                | Tu l'as bu ?
+            .form-group
+                input(type='submit', value='Go')

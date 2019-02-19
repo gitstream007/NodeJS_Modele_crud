@@ -1,0 +1,24 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        title
+    body
+        form(method='POST')
+            .form-group
+                label Name
+                input(name='name', type='text')
+            .form-group
+                label Brewery
+                input(name='brewery', type='text')
+            .form-group
+                label Type
+                input(name='type', type='text')
+            .form-group
+                label Rating
+                input(name='rating', type='number', step='0.01')
+            .form-group
+                input(name='tested', type='checkbox')
+                | Tu l'as bu ?
+            .form-group
+                input(type='submit', value='Go')
